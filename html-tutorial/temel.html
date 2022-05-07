@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+
+<html>
+<!--İlk Html etiketi-->
+
+<head>
+    <!--Sayfa tanımlaması ve ilgili eklemeler yapılır-->
+    <title>Html 5</title>
+    <meta charset="utf-8">
+    <!--Karakter kodlama-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Tarayıcının oranını ayarlar-->
+
+</head>
+
+<body>
+    <!--Web Sitesi İçeriği-->
+    <h1>Html 5</h1>
+    <!--Başlık-->
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    <!--Paragraf-->
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>
+        <!--Bir alt satıra geçmek-->
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    </p>
+    <!--Paragraf-->
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        <hr>
+        <!--Düz bir çizgi bırakmak için-->
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    </p>
+    <!--Paragraf-->
+
+    <h3 style="background-color: red;color: black;">Lorem</h3>
+    <!--Inline Css Etiketi ekleme-->
+    <p> Lorem ipsum dolor sit amet<strong>consectetur</strong>
+        <!--Bold--> adipisicing elit.
+    </p>
+    <!--Paragraf-->
+    <p> Lorem ipsum dolor sit amet<mark>consectetur</mark>
+        <!--Vurgu--> adipisicing elit.
+    </p>
+    <!--Paragraf-->
+    <p> Lorem ipsum dolor sit amet<small>consectetur</small>
+        <!--Küçük--> adipisicing elit.
+    </p>
+    <!--Paragraf-->
+
+    <pre> <!--Preformatted Text yazılar şiir vs gibi yazılarda kullanılabilir.-->
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </pre>
+
+    <a href="https://www.google.com/" title="Google Link" target="_blank">google</a>
+    <!--Link Etiketi--><br>
+    <br>
+    <img src="https://picsum.photos/id/237/600/400">
+    <!--Resim Etiketi-->
+    <br>
+    <table>
+        <!--Tablo Etiketi-->
+        <tr>
+            <!--Tablo Satırı-->
+            <th>Sıra</th>
+            <th>İsim</th>
+            <th>Soyisim</th>
+            <th>Telefon</th>
+            <th>E-Posta</th>
+        </tr>
+        <tr>
+            <!--Tablo Sütunları-->
+            <td>1</td>
+            <td>Ahmet</td>
+            <td>Çelik</td>
+            <td>0555 555 55 55</td>
+            <td>
+                <a href="
+                    mailto:
+                    adadasdas@mail.com" title="E-Posta Gönder">adadasdas@mail.com
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Ahmet</td>
+            <td>Çelik</td>
+            <td>0555 555 55 55</td>
+            <td>
+                <a href="
+                    mailto:
+                    adadasdas@mail.com" title="E-Posta Gönder">adadasdas@mail.com
+                </a>
+            </td>
+        </tr>
+    </table>
+    <br>
+
+    <ul>
+        <!--Sırasız Liste Etiketi-->
+        <li>Lorem ipsum dolor sit amet</li>
+        <li>Lorem ipsum dolor sit amet</li>
+        <li>Lorem ipsum dolor sit amet</li>
+    </ul>
+
+    <ol>
+        <!--Sıralı Liste Etiketi-->
+        <li>Lorem ipsum dolor sit amet</li>
+        <li>Lorem ipsum dolor sit amet</li>
+        <li>Lorem ipsum dolor sit amet</li>
+    </ol>
+    <br>
+    <!--Boşluk-->
+    <audio controls>
+        <!--Ses Dosyası Etiketi-->
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+    </audio>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/esX7SFtEjHg" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+
+    <div>
+        <!--Div Etiketi Gruplamak için kullanılır "block"-->
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    </div>
+    <br>
+    <span>
+        <!--Span Etiketi Gruplamak için kullanılır "inline"-->
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    </span>
+    <br>
+    <form action="">
+        <!--Form Etiketi-->
+        <input type="text" name="ad" placeholder="Adınızı Giriniz">
+        <!--Form Alanı-->
+        <input type="text" name="soyad" placeholder="Soyadınızı Giriniz">
+        <!--Form Alanı-->
+        <input type="text" name="telefon" placeholder="Telefonunuzu Giriniz">
+        <!--Form Alanı-->
+        <input type="text" name="eposta" placeholder="E-Posta Adresinizi Giriniz">
+        <!--Form Alanı-->
+        <br>
+        <input type="radio" name="cinsiyet" value="erkek">Erkek
+        <!--Form Alanı-->
+        <input type="radio" name="cinsiyet" value="kadin">Kadın
+        <!--Form Alanı-->
+        <br>
+        <input type="checkbox" name="hobiler[]" value="sinema">Sinema
+        <!--Form Alanı-->
+        <input type="checkbox" name="hobiler[]" value="kitap">Kitap
+        <!--Form Alanı-->
+        <input type="checkbox" name="hobiler[]" value="spor">Spor
+        <!--Form Alanı-->
+        <input type="checkbox" name="hobiler[]" value="muzik" checked>Müzik
+        <!--Form Alanı-->
+        <br>
+        <br>
+        <select name="sehirler">
+            <!--Seçim Listesi Etiketi-->
+            <option value="istanbul">İstanbul</option>
+            <option value="izmir">İzmir</option>
+            <option value="izmir">Ankara</option>
+            <option value="izmir">İzmir</option>
+            <option value="izmir">Samsun</option>
+        </select>
+        <br>
+        <br>
+        <textarea name="mesaj" placeholder="Mesajınızı Giriniz" rows="15" cols="30"></textarea>
+        <br>
+        <br>
+        <input type="reset" value="Temizle">
+        <!--Form Alanı-->
+        <input type="submit" value="Gönder">
+        <!--Form Gönder Butonu-->
+    </form>
+    <br>
+    <br>
+
+    <!------------------------------------------------------->
+    <!-- Semantic Elements -->
+
+    <header style="background-color: aqua; width: 100%; height: 50%;">
+        <!--Header Etiketi-->
+        <h1>Header</h1>
+    </header>
+    <nav style="background-color: yellow; width: 100%; height: 50%;">
+        <!--Nav Etiketi-->
+        <ul>
+            <!--Nav Listesi Etiketi-->
+            <li>
+                <!--Nav Liste Elemanı-->
+                <a href="#">Link 1</a>
+            </li>
+            <li>
+                <!--Nav Liste Elemanı-->
+                <a href="#">Link 2</a>
+            </li>
+        </ul>
+    </nav>
+    <section style="background-color: red; width: 50%; height: 100%;">
+        <!--Section Etiketi-->
+        <h2>Section</h2>
+        <article style="background-color: green; width: 50%; height: 50%;">
+            <!--Article Etiketi-->
+            <h4>Article</h4>
+        </article>
+    </section>
+    <aside style="background-color: rgb(91, 91, 106); width: 50%; height: 50%;">
+        <!--Aside Etiketi-->
+        <h3>Aside</h3>
+        <nav>
+            <!--Nav Etiketi-->
+            <ul>
+                <!--Nav Listesi Etiketi-->
+                <li>
+                    <!--Nav Liste Elemanı-->
+                    <a href="#">Link 1</a>
+                </li>
+            </ul>
+        </nav>
+
+    </aside>
+
+    <footer style="background-color: greenyellow; width: 100%; height: 50%;">
+        <!--Footer Etiketi-->
+        <h5>Footer</h5>
+    </footer>
+</body>
+
+</html>
+<!--Son Html etiketi-->
