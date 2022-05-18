@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /*
+        Her html öğesini etkiler
+        */
+      * {
+        text-align: center;
+        color: blue;
+      }
+      /*
+      id seçme
+      */
+      #bir {
+        color: blue;
+      }
+      /*
+      Etiket seçme
+      */
+      p {
+        text-align: center;
+        color: rgb(201, 186, 186);
+      }
+      /*
+      Class seçme
+      */
+      .center {
+        text-align: center;
+        color: rgb(207, 99, 99);
+      }
+      /*
+      Etiket içindeki classı seçme
+      */
+      p.center {
+        text-align: center;
+        color: rgb(168, 124, 124);
+      }
+    </style>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1 style="color: red">Başlık 1</h1>
+    <!--1. Kullanım etiketler içinde  css-->
+    <h1 id="bir">Başlık 2</h1>
+    <!--2. kullanım head etiketi içerisinde-->
+    <h1 id="iki">Başlık 3</h1>
+    <!--3. Kullanım dışarıdan bir css dosyası ile-->
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet quam vel
+      nulla voluptatem dolores et deleniti mollitia distinctio ipsa omnis ab,
+      reprehenderit ea, facilis velit corporis eos, explicabo provident
+      architecto?
+    </p>
+    <h2 class="center">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    </h2>
+    <p class="center">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet quam vel
+      nulla voluptatem dolores et deleniti mollitia distinctio ipsa omnis ab,
+      reprehenderit ea, facilis velit corporis eos, explicabo provident
+      architecto?
+    </p>
+
+    <p id="ornek">ornek</p>
+    <script src="index.js"></script>
+  </body>
+</html>
