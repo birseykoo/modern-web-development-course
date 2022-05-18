@@ -1,0 +1,21 @@
+#navbar {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0.5rem;
+  height: 4rem;
+  overflow: hidden;
+}
+
+#projects .items {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0.5rem;
+}
+
+#projects .items .item {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
