@@ -1,0 +1,130 @@
+/*
+    Text
+*/
+
+.text-center {
+  text-align: center;
+}
+
+.heading-smll {
+  font-size: 1.25rem;
+}
+
+.heading-medium {
+  font-size: 1.5rem;
+}
+
+.heading-big {
+  font-size: 2rem;
+}
+
+/*
+    Colors
+*/
+
+.bg-dark-blue {
+  background-color: #062e51;
+}
+
+.bg-dark-blue-light {
+  background-color: #0a4a6e;
+}
+
+.bg-dark {
+  background-color: #212529;
+}
+
+/*
+    Buttons
+*/
+
+.btn {
+  margin-top: 1.25rem;
+  background: #0a4a6e;
+  border-radius: 50px;
+  padding: 0.5rem;
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  letter-spacing: 2px;
+}
+
+.btn:hover {
+  background: #212529;
+}
+
+.btn-dark {
+  background: #212529;
+  margin-top: 1.25rem;
+  border-radius: 50px;
+  padding: 0.5rem;
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  letter-spacing: 2px;
+}
+
+.btn-dark:hover {
+  background: #062e51;
+}
+
+.btn-block {
+  width: 100%;
+  text-align: center;
+}
+/*
+    Container
+*/
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/*
+    Forms
+*/
+
+.form-group {
+  margin-top: 1.25rem;
+}
+.form-group label {
+  display: block;
+}
+.form-control {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  background: #0a4a6e;
+  color: #ffffff;
+  transition: all 0.3s ease-in-out;
+  resize: none;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+#contact .contact-form ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  margin-top: 1rem;
+  align-self: center;
+}
+
+#contact .contact-form ul li {
+  margin-right: 1rem;
+}
+
+#contact .contact-form ul li a {
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+#contact .contact-form ul li a:hover {
+  opacity: 0.7;
+}
