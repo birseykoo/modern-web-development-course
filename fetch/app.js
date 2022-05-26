@@ -74,7 +74,7 @@ class Request{
                 headers: {
                     "Content-Type": "application/json; charset=utf-8"
                 }
-            }).then(response => response.json()).then(data => resolve(data)).catch(err => reject(err));
+            }).then(response => response.json()).then(data => resolve("Veri silme işlemi başarılı")).catch(err => reject(err));
         });
     }
 }
@@ -96,13 +96,13 @@ request.post("https://jsonplaceholder.typicode.com/albums", {
 }
 ).catch(err => console.log(err));
 
-// request.put("https://jsonplaceholder.typicode.com/albums/1", {
-//     userId: 1,
-//     title: "You First Album",
-// }).then(album => {
-//     console.log(album);
-// }
-// ).catch(err => console.log(err));
+request.put("https://jsonplaceholder.typicode.com/albums/1", {
+    userId: 1,
+    title: "You First Album",
+}).then(album => {
+    console.log(album);
+}
+).catch(err => console.log(err));
 
 request.delete("https://jsonplaceholder.typicode.com/albums/1").then(album => {
     console.log(album);
