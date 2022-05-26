@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Celestial",
+        "age" : "18",
+        "salary": "50000"
+    },
+    {
+        "name":"Saurav",
+        "age" : "19",
+        "salary": "60000"
+    },
+    {
+        "name":"Volkan",
+        "age" : "20",
+        "salary": "70000"
+    }
+]
